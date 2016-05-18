@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/actualites">
+        <menu>
+            <item
+                android:id="@+id/nav_politique"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/politique" />
+            <item
+                android:id="@+id/nav_societe"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/societe" />
+            <item
+                android:id="@+id/nav_economie"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/economie" />
+            <item
+                android:id="@+id/nav_culture"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/culture" />
+            <item
+                android:id="@+id/nav_sport"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/sport" />
+        </menu>
+    </item>
+
+    <item android:title="@string/dossier">
+        <menu>
+            <item
+                android:id="@+id/nav_interview"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/interview" />
+        </menu>
+    </item>
+
+    <item android:title="@string/economie">
+        <menu>
+            <item
+                android:id="@+id/nav_enimage"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/enimage" />
+            <item
+                android:id="@+id/nav_lupourvous"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/lupourvous" />
+        </menu>
+    </item>
+
+</menu>
